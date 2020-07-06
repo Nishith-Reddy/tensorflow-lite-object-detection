@@ -16,9 +16,9 @@ For installing tensorflow lite first you need to install tesorflow
 
 After, installing tensorflow head to https://www.tensorflow.org/lite/guide/python and pip install the required tensorflow lite interpreter depending on your computer os.
 
-`pip install https://dl.google.com/coral/python/tflite_runtime-2.1.0.post1-cp37-cp37m-macosx_10_14_x86_64.whl
+`pip install https://dl.google.com/coral/python/tflite_runtime-2.1.0.post1-cp37-cp37m-macosx_10_14_x86_64.whl`
 
-(In my case I am using mac os and Python version I am using is 3.7)`
+`(In my case I am using mac os and Python version I am using is 3.7)`
 
 ### step3: Downloading Google's sample TFLite model
 Google provides a sample quantized SSDLite-MobileNet-v2 object detection model which is trained off the MSCOCO dataset and converted to run on TensorFlow Lite. It can detect and identify 80 different common objects.
