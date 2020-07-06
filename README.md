@@ -4,4 +4,5 @@
 
 ### step1: 
 clone the tensorflow-lite-object-detectetion repository.
-  `git clone https://github.com/Nishithw3b/tensorflow-lite-object-detection`
+
+`git clone https://github.com/Nishithw3b/tensorflow-lite-object-detection`
