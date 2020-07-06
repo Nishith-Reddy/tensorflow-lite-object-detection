@@ -17,6 +17,7 @@ For installing tensorflow lite first you need to install tesorflow
 After, installing tensorflow head to https://www.tensorflow.org/lite/guide/python and pip install the required tensorflow lite interpreter depending on your computer os.
 
 `(In my case I am using mac os and Python version I am using is 3.7)`
+
 `pip install https://dl.google.com/coral/python/tflite_runtime-2.1.0.post1-cp37-cp37m-macosx_10_14_x86_64.whl`
 
 ### step3: Downloading Google's sample TFLite model
@@ -38,3 +39,5 @@ Here I am focusing much on object detection in real-time(webcam), To do that run
 `python3 TFLite_detection_webcam.py --modeldir=Sample_TFLite_model`
 
 Here, we are using **"Sample_TFLite_model"**. You can also use any other model or your custom model by changeing `--modeldir=Name-of-Your-Model` in the above command.
+
+## Creating Custom trained model and using USB accelerator will be updated soon.
