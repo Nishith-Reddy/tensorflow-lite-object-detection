@@ -24,6 +24,7 @@ After, installing tensorflow head to https://www.tensorflow.org/lite/guide/pytho
 Google provides a sample quantized SSDLite-MobileNet-v2 object detection model which is trained off the MSCOCO dataset and converted to run on TensorFlow Lite. It can detect and identify 80 different common objects.
 
 To download the sample model just run the following command,
+
 `wget https://storage.googleapis.com/download.tensorflow.org/models/tflite/coco_ssd_mobilenet_v1_1.0_quant_2018_06_29.zip`
 
 Unzip it to a folder called "Sample_TFLite_model" by issuing:
