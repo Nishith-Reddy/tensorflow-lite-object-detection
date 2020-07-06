@@ -40,4 +40,4 @@ Here I am focusing much on object detection in real-time(webcam), To do that run
 
 Here, we are using **"Sample_TFLite_model"**. You can also use any other model or your custom model by changeing `--modeldir=Name-of-Your-Model` in the above command.
 
-## Creating Custom trained model and using USB accelerator will be updated soon.
+#### Creating Custom trained model and using USB accelerator will be updated soon.
